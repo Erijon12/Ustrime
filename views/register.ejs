@@ -1,0 +1,73 @@
+<h1 style="display: flex; justify-content: center; align-items: center">
+  Register
+</h1>
+<form action="/register" method="POST">
+  <div style="display: flex; justify-content: center; align-items: center">
+    <div>
+      <label for="name"> name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        required
+        style="
+          margin-top: 20px;
+          width: 300px;
+          height: 30px;
+          border-radius: 10px;
+        "
+      />
+    </div>
+    <div>
+      <label for="Email"> Email</label>
+      <input
+        type="email"
+        name="Email"
+        id="Email"
+        required
+        style="
+          margin-top: 20px;
+          width: 300px;
+          height: 30px;
+          border-radius: 10px;
+        "
+      />
+    </div>
+    <div>
+      <label for="password"> Pass</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        style="
+          margin-top: 20px;
+          width: 300px;
+          height: 30px;
+          border-radius: 10px;
+        "
+      />
+    </div>
+  </div>
+  <div style="display: flex; justify-content: center; align-items: center">
+    <button
+      type="submit"
+      style="
+        margin-top: 20px;
+        background-color: blue;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        color: white;
+        border: none;
+      "
+    >
+      Rgister
+    </button>
+  </div>
+</form>
+<a
+  href="/login"
+  style="display: flex; justify-content: center; align-items: center"
+  >Login</a
+>

@@ -1,0 +1,41 @@
+<%- include('./index.ejs'); %>
+<style>
+  .container input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 40px;
+  }
+  .input_login {
+    border-radius: 5px;
+    font-size: 14px;
+    height: 40px;
+  }
+  .btn_login {
+    background-color: #1c6a1c;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    outline: none;
+  }
+</style>
+
+<div class="container">
+  <h1>Login</h1>
+  <form action="/Login" method="POST">
+    <div class="d-flex justify-content-center">
+      <div class="m-1 input_login">
+        <input type="text" name="Email" id="Email" placeholder="Email" />
+      </div>
+      <div class="m-1 input_login">
+        <input type="text" name="Pass" id="Pass" placeholder="Password" />
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mt-1">
+      <button type="submit" class="btn_login">Login</button>
+    </div>
+  </form>
+</div>

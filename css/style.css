@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(22, 21, 21);
+}
+
+.input_login {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
